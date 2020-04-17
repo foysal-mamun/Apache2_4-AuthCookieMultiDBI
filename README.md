@@ -1,19 +1,11 @@
-# Apache2_4-AuthCookieMultiDBI
+# Apache2_4::AuthCookieMultiDBI - An AuthCookie module backed by a DBI database for apache 2.4.
 
-
-An AuthCookie module backed by a DBI database for apache 2.4.
-
-
-=head1 NAME
-
-Apache2_4::AuthCookieMultiDBI - An AuthCookie module backed by a DBI database for apache 2.4.
-
-=head1 VERSION
+## VERSION
 
     This is version 0.4
 
 
-=head1 SYNOPSIS
+## SYNOPSIS
 
     # In httpd.conf or .htaccess
 
@@ -72,7 +64,7 @@ Apache2_4::AuthCookieMultiDBI - An AuthCookie module backed by a DBI database fo
         #Satisfy any
     </Files>
 
-=head1 DESCRIPTION
+## DESCRIPTION
 
 This module is an authentication handler that uses the basic mechanism provided
 by Apache2_4::AuthCookie with a DBI database for ticket-based protection. Actually
@@ -120,28 +112,28 @@ and the login form is shown again.
 
 =cut
 
-=head1 EXPORTS
+## EXPORTS
 
 None.
 
-=head1 REVISIONS
+## REVISIONS
 
 Please see the enclosed file CHANGES.
 
-=head1 PROBLEMS?
+## PROBLEMS?
 
 If this doesn't work, let me know and I'll fix the code. Or by all means send a patch.
 Please don't just post a bad review on CPAN.
 
-=head1 SEE ALSO
+## SEE ALSO
 
 L<Apache2::AuthCookieDBI>: L<Apache2_4::AuthCookie>.
 
-=head1 AUTHOR
+## AUTHOR
 
 berlin3, details -at- cpan -dot- org.
 
-=head1 COPYRIGHT
+## COPYRIGHT
 
 Copyright (C) details, 2018, ff. - All Rights Reserved.
 
