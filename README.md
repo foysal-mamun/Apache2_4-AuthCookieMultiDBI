@@ -1,11 +1,12 @@
-### Apache2_4::AuthCookieMultiDBI - An AuthCookie module backed by a DBI database for apache 2.4.
+#### Apache2_4::AuthCookieMultiDBI 
+- An AuthCookie module backed by a DBI database for apache 2.4.
 
-##### VERSION
+###### VERSION
 
     This is version 0.4
 
 
-##### SYNOPSIS
+###### SYNOPSIS
 
     # In httpd.conf or .htaccess
 
@@ -64,7 +65,7 @@
         #Satisfy any
     </Files>
 
-##### DESCRIPTION
+###### DESCRIPTION
 
 This module is an authentication handler that uses the basic mechanism provided
 by Apache2_4::AuthCookie with a DBI database for ticket-based protection. Actually
@@ -110,28 +111,28 @@ If a ticket has expired or is otherwise invalid it is cleared in the browser
 and the login form is shown again.
 
 
-##### EXPORTS
+###### EXPORTS
 
 None.
 
-##### REVISIONS
+###### REVISIONS
 
 Please see the enclosed file CHANGES.
 
-##### PROBLEMS?
+###### PROBLEMS?
 
 If this doesn't work, let me know and I'll fix the code. Or by all means send a patch.
 Please don't just post a bad review on CPAN.
 
-##### SEE ALSO
+###### SEE ALSO
 
 L<Apache2::AuthCookieDBI>: L<Apache2_4::AuthCookie>.
 
-##### AUTHOR
+###### AUTHOR
 
 berlin3, details -at- cpan -dot- org.
 
-##### COPYRIGHT
+###### COPYRIGHT
 
 Copyright (C) details, 2018, ff. - All Rights Reserved.
 
